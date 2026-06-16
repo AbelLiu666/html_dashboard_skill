@@ -1,6 +1,6 @@
 # 🏦 Analysis HTML Dashboard
 
-**一句话生成可视化分析级数据看板 — 零依赖，开箱即用**
+**一句话生成可视化分析级数据看板/自带智能客服 — 零依赖，开箱即用**
 
 [![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/fintech-html-dashboard?style=social)](https://github.com/YOUR_USERNAME/fintech-html-dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -25,7 +25,7 @@
 
 **Fintech HTML Dashboard** 是一个 AI Agent Skill，让 AI 助手（WorkBuddy / Claude Code / Cursor 等）能够**一句话生成完整的可视化分析级数据看板页面**。
 
-输出物是一个**单文件 HTML**——复制代码，保存为 `.html`，双击打开，立即可用。
+输出物是一个**单文件 HTML**——复制代码，保存为 `.html`，双击打开，立即可用，自带智能客服基于页面内容问答。
 
 不需要 Node.js，不需要 npm install，不需要任何构建工具。
 唯一的外部依赖是 ECharts CDN（自动加载）。
@@ -39,7 +39,8 @@
 - 😤 用 BI 工具拖了半天，结果导出的页面排版全乱
 - 😤 竞品分析要可视化，临时找工具来不及
 - 😤 需求文档想做成可交互的 Demo 页，但没人写前端
-
+- 😤 AI时代了分析内容还不能支持自带agent问答
+  
 **一句话，全解决。**
 
 ### ✨ 核心特性
@@ -112,11 +113,14 @@ git clone https://github.com/YOUR_USERNAME/fintech-html-dashboard.git
 ```
 ### 😊 示例界面展示
 
+<img width="2044" height="926" alt="wechat_2026-06-16_120128_628" src="https://github.com/user-attachments/assets/37303e45-185b-4c23-83bf-de455b5885e0" />
+<img width="2988" height="1632" alt="wechat_2026-06-16_120031_881" src="https://github.com/user-attachments/assets/32d004aa-188e-467d-b48e-1964821111da" />
+<img width="2044" height="926" alt="wechat_2026-06-16_120128_628" src="https://github.com/user-attachments/assets/1ed7c075-9d33-45e4-a690-dc863b25d886" />
+<img width="2992" height="1628" alt="wechat_2026-06-16_120101_419" src="https://github.com/user-attachments/assets/1812b2dd-5861-445a-b197-05b6c8340cb3" />
 <img width="1808" height="1333" alt="FireShot Capture 519 - 中国AI外呼市场竞品分析 · 对标百融云创 - " src="https://github.com/user-attachments/assets/db8671b3-bf09-4db7-995c-eab6220ab0de" />
 <img width="2048" height="931" alt="FireShot Capture 518 - 中国AI外呼市场竞品分析 · 对标百融云创 - " src="https://github.com/user-attachments/assets/a196c0cc-627d-45dc-9472-f4d97334d7b4" />
 <img width="2544" height="1715" alt="FireShot Capture 521 - LLM智能投顾系统 — 全景分析看板 - " src="https://github.com/user-attachments/assets/6b18c56d-5361-409c-9317-8d5397a5e030" />
 <img width="2544" height="2515" alt="FireShot Capture 522 - LLM智能投顾系统 — 全景分析看板 - " src="https://github.com/user-attachments/assets/58a0b1a9-9e7c-41bf-9571-6b86faf4dc18" />
-
 
 ### 📐 架构设计
 
