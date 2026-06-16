@@ -1,8 +1,4 @@
-<div align="center">
-
-<img src="assets/logo_main.png" alt="Fintech HTML Dashboard" width="420" />
-
-# 🏦 Fintech HTML Dashboard
+# 🏦 Analysis HTML Dashboard
 
 **一句话生成可视化分析级数据看板 — 零依赖，开箱即用**
 
