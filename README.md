@@ -1,157 +1,308 @@
-# Fintech HTML Dashboard Generator
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Skill: Trae](https://img.shields.io/badge/Skill-Trae-2ea44f.svg)](https://trae.ai)
+<img src="assets/logo_main.png" alt="Fintech HTML Dashboard" width="420" />
 
-> 专为金融 AI 产品专家设计的单文件 HTML 仪表板生成器。基于 Trae IDE Skill 架构，快速生成交互式数据可视化页面。
+# 🏦 Fintech HTML Dashboard
 
-## 功能特性
+**一句话生成可视化分析级数据看板 — 零依赖，开箱即用**
 
-- **侧边栏导航布局** - 240px 固定宽度侧边栏 + 弹性主内容区
-- **ECharts 图表集成** - 支持折线图、柱状图、饼图、雷达图、双轴图等
-- **智能客服浮窗** - 右下角可展开的对话窗口，支持关键词自动回复
-- **金融级配色体系** - 低饱和度专业配色，6 套预设主题
-- **响应式设计** - 适配 1366px - 1920px 桌面分辨率
-- **PDF 导出支持** - 一键导出 PDF，支持打印样式优化
-- **零依赖** - 除 ECharts CDN 外完全自包含
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/fintech-html-dashboard?style=social)](https://github.com/YOUR_USERNAME/fintech-html-dashboard)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Skill](https://img.shields.io/badge/WorkBuddy-Skill-blueviolet)](https://www.codebuddy.cn)
+[![介绍页](https://img.shields.io/badge/先看介绍页-👉_Click-brightgreen)](https://YOUR_USERNAME.github.io/fintech-html-dashboard/)
 
-## 快速开始
 
-### 安装
+> 专为业务/AI产品专家设计的单文件 HTML 仪表板生成器。基于 Trae IDE Skill 架构，快速生成交互式数据可视化页面。
+<img width="1858" height="1368" alt="image" src="https://github.com/user-attachments/assets/3a6b5c7c-3652-4d66-b1b1-dbe966ad7d69" />
+<img width="1922" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a61e745-7e3b-4f04-a4f3-f291f7e27f95" />
+<img width="1884" height="1600" alt="image" src="https://github.com/user-attachments/assets/0e9db45c-ab5c-4da6-ad51-65dbf1bb83bb" />
 
-将此 Skill 安装到 Trae IDE：
+[English](#english) · [中文](#中文)
+
+</div>
+
+---
+
+## 中文
+
+### 🎯 这是什么
+
+**Fintech HTML Dashboard** 是一个 AI Agent Skill，让 AI 助手（WorkBuddy / Claude Code / Cursor 等）能够**一句话生成完整的可视化分析级数据看板页面**。
+
+输出物是一个**单文件 HTML**——复制代码，保存为 `.html`，双击打开，立即可用。
+
+不需要 Node.js，不需要 npm install，不需要任何构建工具。
+唯一的外部依赖是 ECharts CDN（自动加载）。
+
+### 🔥 为什么需要它
+
+你有没有遇到过这些场景：
+
+- 😤 花了 2 小时调 ECharts 配置，结果图表还是丑
+- 😤 可视化分析看板配色太花哨，老板说"不够专业"
+- 😤 用 BI 工具拖了半天，结果导出的页面排版全乱
+- 😤 竞品分析要可视化，临时找工具来不及
+- 😤 需求文档想做成可交互的 Demo 页，但没人写前端
+
+**一句话，全解决。**
+
+### ✨ 核心特性
+
+| 特性 | 说明 |
+|------|------|
+| 🏗️ **强制专业布局** | 左侧边栏导航 + 右侧多页切换，可视化分析 SaaS 标配结构 |
+| 📊 **6 种图表模式** | 折线图 / 柱状图 / 饼图 / 雷达图 / 双轴图 / 散点图，自动选型 |
+| 🎨 **6 套可视化分析配色** | 深海军蓝 / 森林青 / 皇家紫 / 岩板灰 / 勃艮第红 / 午夜靛蓝 |
+| 💬 **智能客服浮窗** | 右下角 AI 客服，关键词匹配自动应答页面内容 |
+| 📱 **响应式适配** | 1366px ~ 1920px 桌面端完美呈现 |
+| ⚡ **零构建部署** | 单文件 HTML，浏览器直接打开，无需任何构建步骤 |
+| 🐂 **署名签名** | 侧边栏底部 "By Abel" 签名，作品归属清晰 |
+
+### 🖼️ 效果展示
+
+<details>
+<summary>📸 点击查看生成效果截图</summary>
+
+| 配色主题 | 效果预览 |
+|---------|---------|
+| 深海军蓝 (默认) | ![Deep Navy](assets/demo-navy.png) |
+| 森林青 | ![Forest Teal](assets/demo-teal.png) |
+| 皇家紫 | ![Royal Purple](assets/demo-purple.png) |
+| 午夜靛蓝 | ![Midnight Indigo](assets/demo-indigo.png) |
+
+</details>
+
+### 🚀 快速开始
+
+#### 方式一：WorkBuddy 直接使用（推荐）
 
 ```bash
-# 克隆到 Trae skills 目录
-git clone https://github.com/yourusername/fintech-html-dashboard.git ~/.trae-cn/skills/fintech-html-dashboard
-
-# 重启 Trae IDE 即可使用
+# 在 WorkBuddy 中直接对话
+"帮我生成一个AI外呼产品竞品分析看板"
+"做一个可视化分析数据可视化页面，用深蓝配色"
+"生成竞品对比仪表盘，对比5家公司的技术能力"
 ```
 
-### 使用
+#### 方式二：手动安装到 WorkBuddy
 
-在 Trae/Workbuddy/Cursor/Claudecode/…… 中触发 Skill：
+```bash
+# 克隆仓库
+git clone https://github.com/YOUR_USERNAME/fintech-html-dashboard.git
 
-```
-帮我分析AIcoding市场规模和发展趋势、机会等，并且对比cursor/Qoder/workbuddy等产品
-```
-
-或
-
-```
-做一个 AI 客服产品的演示 Demo
+# 复制到 WorkBuddy skills 目录
+cp -r fintech-html-dashboard ~/.workbuddy/skills/
 ```
 
-### 输入参数
+#### 方式三：Claude Code / Cursor 手动配置
 
-| 参数 | 说明 | 示例 |
-|------|------|------|
-| Business Background | 页面用途 | AI 客服产品分析 |
-| Target Audience | 目标受众 | 产品经理、高管 |
-| Expected Goal | 预期目标 | 演示汇报、数据回顾 |
-| Reference Materials | 参考材料 | 数据文档、竞品资料 |
-| Primary Color Scheme | 主色调 | 深蓝、青绿、藏青 |
+```bash
+# 克隆到本地
+git clone https://github.com/YOUR_USERNAME/fintech-html-dashboard.git
 
-## 项目结构
+# 将 SKILL.md 和 references/ assets/ 复制到你的 agent 配置目录
+```
+
+#### 方式四：直接告诉 AI Agent 安装
+
+复制以下提示词，粘贴给你的 AI 助手：
+
+```
+请帮我安装 fintech-html-dashboard skill：
+1. 访问 https://github.com/YOUR_USERNAME/fintech-html-dashboard
+2. 将 SKILL.md 放到 ~/.workbuddy/skills/html-dashboard/SKILL.md
+3. 将 references/ 目录放到 ~/.workbuddy/skills/html-dashboard/references/
+4. 将 assets/ 目录放到 ~/.workbuddy/skills/html-dashboard/assets/
+5. 安装完成后，测试：说"帮我生成一个可视化分析看板页面"
+```
+
+### 📐 架构设计
+
+```mermaid
+graph TB
+    A[用户输入业务需求] --> B{Skill 触发判断}
+    B -->|看板/可视化/Dashboard| C[收集 5 项输入]
+    B -->|其他| Z[不触发]
+    C --> D[选择配色主题]
+    D --> E[加载 template.html 骨架]
+    E --> F[加载 chart-patterns.md 图表配置]
+    F --> G[加载 color-palettes.md 配色方案]
+    G --> H[生成完整单文件 HTML]
+    H --> I[浏览器直接运行 ✅]
+
+    style A fill:#1a365d,color:#fff
+    style H fill:#3182ce,color:#fff
+    style I fill:#38a169,color:#fff
+```
+
+### 📂 目录结构
 
 ```
 fintech-html-dashboard/
-├── SKILL.md                    # Skill 定义文件
-├── README.md                   # 项目说明
+├── SKILL.md                          # Skill 核心定义（触发规则+结构约束+输出规范）
+├── references/
+│   ├── chart-patterns.md             # 6 种 ECharts 可视化分析图表配置模板
+│   └── color-palettes.md             # 6 套可视化分析级 CSS 配色方案
 ├── assets/
-│   └── template.html           # HTML 模板骨架
-└── references/
-    ├── color-palettes.md       # 预设配色方案
-    └── chart-patterns.md       # ECharts 配置模式
+│   └── template.html                 # 完整 HTML 骨架模板（含侧边栏+图表+客服浮窗）
+├── docs/
+│   └── index.html                    # GitHub Pages 介绍页
+└── README.md                         # 本文件
 ```
 
-## 页面结构
+### 🎯 适用场景
 
-```
-+------------------+----------------------------------------+
-|                  |                                        |
-|   SIDEBAR        |        MAIN CONTENT AREA               |
-|   (240px)        |        (flex: 1)                       |
-|                  |                                        |
-|   [Nav Item 1]   |   +-------------------------------+   |
-|   [Nav Item 2]   |   |                               |   |
-|   [Nav Item 3]   |   |   Page content switches       |   |
-|   [Nav Item 4]   |   |   based on sidebar selection  |   |
-|   ...            |   |                               |   |
-|                  |   +-------------------------------+   |
-|                  |                                        |
-|   [By Abel]      |                                        |
-+------------------+----------------------------------------+
-                                            [💬 Chat Float]
-```
+| 场景 | 示例提示词 |
+|------|-----------|
+| 📊 **业务需求调研看板** | "帮我生成一个用户调研数据看板" |
+| 📋 **标准化需求文档展示** | "把 PRD 做成可交互的 HTML 页面" |
+| ⚔️ **竞品分析可视化** | "生成 AI 外呼产品竞品对比页面" |
+| 📈 **市场/行业研究看板** | "做一个可视化分析科技市场趋势仪表盘" |
+| 🎪 **产品 Demo 原型** | "帮我做一个 AI 客服产品演示 Demo" |
 
-## 图表类型
+### 🎨 配色预览
 
-| 数据类型 | 图表 | ECharts 类型 |
-|---------|------|-------------|
-| 时间序列 | 折线图 | `type: 'line'` |
-| 分类对比 | 柱状图 | `type: 'bar'` |
-| 占比分布 | 饼图 | `type: 'pie'` |
+| # | 主题名 | 主色 | 适用场景 |
+|---|--------|------|---------|
+| 1 | 🌊 深海军蓝 | `#1a365d` → `#3182ce` | 可视化分析、银行、保险（默认推荐） |
+| 2 | 🌲 森林青 | `#1a4731` → `#319795` | ESG、绿色可视化分析、环保 |
+| 3 | 👑 皇家紫 | `#322659` → `#805ad5` | 高端财富管理、VIP 客户 |
+| 4 | 🪨 岩板灰 | `#2d3748` → `#4299e1` | 通用商务、B2B SaaS |
+| 5 | 🍷 勃艮第红 | `#742a2a` → `#e53e3e` | 风控、催收、预警系统 |
+| 6 | 🌌 午夜靛蓝 | `#1e1b4b` → `#6366f1` | 科技感、AI 产品、大模型 |
+
+### 🔧 技术细节
+
+<details>
+<summary>⚙️ 页面结构契约（非协商）</summary>
+
+生成页面必须严格遵守以下结构：
+
+1. **左侧边栏**（固定 240px）：
+   - Logo 区 + 导航按钮列表 + 底部署名
+   - 点击导航切换右侧内容页
+   - 激活态高亮，悬停态过渡
+
+2. **右侧内容区**（flex: 1）：
+   - 同一时刻仅显示一个页面
+   - 页面切换时隐藏当前页、显示目标页
+   - 必须多页 Tab 切换，禁止单页平铺
+
+3. **智能客服浮窗**（右下角 fixed）：
+   - 圆形按钮 → 点击展开对话窗口
+   - 支持关闭(×)和最小化(−)
+   - 关键词匹配自动应答
+
+</details>
+
+<details>
+<summary>📊 ECharts 图表选型规则</summary>
+
+| 数据语义 | 图表类型 | ECharts Series |
+|---------|---------|----------------|
+| 时间序列、趋势变化 | 折线图 | `type: 'line'` |
+| 分类对比、排名 | 柱状图 | `type: 'bar'` |
+| 占比、百分比构成 | 饼图 | `type: 'pie'` |
 | 多维评分 | 雷达图 | `type: 'radar'` |
-| 双指标对比 | 双轴图 | 双 yAxis |
+| 双指标对比 | 双轴图 | 双 yAxis + line+bar |
+| 分布模式 | 散点图 | `type: 'scatter'` |
 
-## 配色方案
+</details>
 
-- **Deep Blue** - 经典金融蓝 `#1a365d`
-- **Teal** - 科技青绿 `#0d7377`
-- **Navy** - 沉稳藏青 `#0f172a`
-- **Emerald** - 商务翠绿 `#065f46`
-- **Slate** - 现代岩灰 `#334155`
-- **Indigo** - 深邃靛蓝 `#312e81`
+### 🤝 参与贡献
 
-## 适用场景
-
-- 业务需求调研看板
-- 标准化需求文档展示
-- 竞品分析可视化
-- 市场/行业研究仪表板
-- 产品演示原型
-
-## PDF 导出
-
-生成 HTML 后，系统会自动调用 `mcp_Qieman_RenderHtmlToPdf` 工具转换为 PDF，提供下载链接。
-
-页面内也支持客户端 PDF 导出：
-
-```javascript
-// 点击导出按钮触发
-function exportPDF() {
-  window.print();
-}
+```bash
+# Fork → 修改 → PR
+git clone https://github.com/YOUR_USERNAME/fintech-html-dashboard.git
+cd fintech-html-dashboard
+# 修改后提交 PR
 ```
 
-## 技术栈
+欢迎贡献：
+- 🎨 新增配色主题
+- 📊 新增图表模式
+- 💡 新增页面模板
+- 🐛 修复问题
 
-- HTML5 + CSS3 + JavaScript (ES6+)
-- ECharts 5.5 (CDN)
-- CSS Variables 主题系统
-- Flexbox + Grid 布局
+### 📜 许可证
 
-## 浏览器兼容
+[MIT License](LICENSE) — 自由使用、修改、分发。
 
-- Chrome 80+
-- Firefox 75+
-- Safari 13+
-- Edge 80+
+### 🌟 Star History
 
-## 贡献指南
+[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/fintech-html-dashboard&type=Date)](https://star-history.com/#YOUR_USERNAME/fintech-html-dashboard&Date)
 
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
+---
 
-## 许可证
+## English
 
-[MIT](LICENSE) © Abel
+### 🎯 What is this
 
-## 致谢
+**Fintech HTML Dashboard** is an AI Agent Skill that enables AI assistants to **generate complete financial-grade dashboard pages with a single sentence**.
 
-- [ECharts](https://echarts.apache.org/) - 强大的开源图表库
-- [Trae](https://trae.ai/) - AI 驱动的 IDE 平台
+The output is a **single HTML file** — copy the code, save as `.html`, double-click to open, ready to use.
+
+No Node.js. No npm install. No build tools.
+The only external dependency is ECharts CDN (auto-loaded).
+
+### 🔥 Why you need it
+
+- 😤 Spent 2 hours tweaking ECharts config, chart still looks ugly
+- 😤 Dashboard colors too flashy, boss says "not professional enough"
+- 😤 Need a competitive analysis visualization page, no time for BI tools
+- 😤 Want an interactive Demo page for PRD, but no frontend dev available
+
+**One sentence. All solved.**
+
+### ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🏗️ **Professional Layout** | Left sidebar nav + right multi-page switching, standard financial SaaS structure |
+| 📊 **6 Chart Patterns** | Line / Bar / Pie / Radar / Dual-axis / Scatter, auto-selection |
+| 🎨 **6 Color Themes** | Deep Navy / Forest Teal / Royal Purple / Slate Gray / Burgundy Wine / Midnight Indigo |
+| 💬 **Smart CS Widget** | Bottom-right AI customer service, keyword-matched auto-response |
+| 📱 **Responsive** | Perfect fit for 1366px ~ 1920px desktop |
+| ⚡ **Zero Build** | Single HTML file, open directly in browser |
+| 🐂 **Signature** | "By Abel" signature at sidebar bottom |
+
+### 🚀 Quick Start
+
+#### Option 1: Use in WorkBuddy (Recommended)
+
+Just say:
+```
+"帮我生成一个可视化分析看板页面"
+"Create a fintech dashboard with deep navy theme"
+```
+
+#### Option 2: Manual Install
+
+```bash
+git clone https://github.com/YOUR_USERNAME/fintech-html-dashboard.git
+cp -r fintech-html-dashboard ~/.workbuddy/skills/
+```
+
+### 🎯 Use Cases
+
+| Scenario | Example Prompt |
+|----------|---------------|
+| 📊 Business Research Dashboard | "生成用户调研数据看板" |
+| 📋 PRD Interactive Display | "把 PRD 做成交互式 HTML 页面" |
+| ⚔️ Competitive Analysis | "AI 外呼产品竞品对比可视化" |
+| 📈 Market Research | "可视化分析科技市场趋势仪表盘" |
+| 🎪 Product Demo | "AI 客服产品演示 Demo" |
+
+### 📜 License
+
+[MIT License](LICENSE)
+
+---
+
+<div align="center">
+
+**如果这个 Skill 对你有帮助，给个 ⭐ Star 吧！**
+
+ Made with 🐂 by [Abel](https://github.com/YOUR_USERNAME)
+
+</div>
+
