@@ -9,7 +9,6 @@
 
 
 > 专为业务/AI产品专家设计的单文件 HTML 仪表板生成器。基于 Trae IDE Skill 架构，快速生成交互式数据可视化页面。
-<img width="1808" height="1333" alt="FireShot Capture 519 - 中国AI外呼市场竞品分析 · 对标百融云创 - " src="https://github.com/user-attachments/assets/8daf71e5-ad67-4550-92e0-115b18ae9692" />
 <img width="1858" height="1368" alt="image" src="https://github.com/user-attachments/assets/3a6b5c7c-3652-4d66-b1b1-dbe966ad7d69" />
 <img width="1922" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a61e745-7e3b-4f04-a4f3-f291f7e27f95" />
 <img width="1884" height="1600" alt="image" src="https://github.com/user-attachments/assets/0e9db45c-ab5c-4da6-ad51-65dbf1bb83bb" />
