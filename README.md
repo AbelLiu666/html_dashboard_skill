@@ -1,4 +1,4 @@
-# 🏦 Analysis HTML Dashboard
+<img width="1808" height="1333" alt="FireShot Capture 519 - 中国AI外呼市场竞品分析 · 对标百融云创 - " src="https://github.com/user-attachments/assets/8daf71e5-ad67-4550-92e0-115b18ae9692" /># 🏦 Analysis HTML Dashboard
 
 **一句话生成可视化分析级数据看板 — 零依赖，开箱即用**
 
@@ -110,6 +110,13 @@ git clone https://github.com/YOUR_USERNAME/fintech-html-dashboard.git
 4. 将 assets/ 目录放到 ~/.workbuddy/skills/html-dashboard/assets/
 5. 安装完成后，测试：说"帮我生成一个可视化分析看板页面"
 ```
+### 😊 示例界面展示
+
+<img width="1808" height="1333" alt="FireShot Capture 519 - 中国AI外呼市场竞品分析 · 对标百融云创 - " src="https://github.com/user-attachments/assets/db8671b3-bf09-4db7-995c-eab6220ab0de" />
+<img width="2048" height="931" alt="FireShot Capture 518 - 中国AI外呼市场竞品分析 · 对标百融云创 - " src="https://github.com/user-attachments/assets/a196c0cc-627d-45dc-9472-f4d97334d7b4" />
+<img width="2544" height="1715" alt="FireShot Capture 521 - LLM智能投顾系统 — 全景分析看板 - " src="https://github.com/user-attachments/assets/6b18c56d-5361-409c-9317-8d5397a5e030" />
+<img width="2544" height="2515" alt="FireShot Capture 522 - LLM智能投顾系统 — 全景分析看板 - " src="https://github.com/user-attachments/assets/58a0b1a9-9e7c-41bf-9571-6b86faf4dc18" />
+
 
 ### 📐 架构设计
 
@@ -165,6 +172,7 @@ fintech-html-dashboard/
 | 4 | 🪨 岩板灰 | `#2d3748` → `#4299e1` | 通用商务、B2B SaaS |
 | 5 | 🍷 勃艮第红 | `#742a2a` → `#e53e3e` | 风控、催收、预警系统 |
 | 6 | 🌌 午夜靛蓝 | `#1e1b4b` → `#6366f1` | 科技感、AI 产品、大模型 |
+
 
 ### 🔧 技术细节
 
